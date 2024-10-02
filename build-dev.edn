@@ -1,0 +1,5 @@
+{:optimizations :none
+ :output-to "target/main.js"
+ :main joy.music
+ :browser-repl false
+ :pretty-print true}

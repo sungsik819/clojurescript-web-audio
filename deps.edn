@@ -1,0 +1,6 @@
+{:paths ["src/clj" "src/cljs"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.4"}
+        org.clojure/clojurescript {:mvn/version "1.11.132"}}
+ :aliases {:cljsbuild-dev {:main-opts ["-m" "cljs.main" "-v" "-co" "build-dev.edn" "-c"]}
+           :cljsbuild-prod {:main-opts ["-m" "cljs.main" "-v" "-co" "build-prod.edn" "-c"]}
+           :cljs-dev-server {:main-opts ["-m" "cljs.main" "-v" "-co" "build-dev.edn" "-c" "-s"]}}}
